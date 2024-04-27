@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+
+header {
+  background: #181715;
+  color: #fff;
+  padding: 10px 30px;
+}
+
+/*
+* Nav Bar
+*/
+nav ul li {
+  display: inline-block;
+}
+
+nav ul {  
+  margin: 0;
+}
+
+nav {   
+  text-align: center;
+}
+
+
+nav ul li a {
+  color: rgb(238, 232, 232);
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;  
+  transition: 0.3s ease all;
+}
+nav ul li a:hover {
+  background: #444;
+}
+
+/*
+* Individual Volcano Page
+*/
+.volcano { 
+  text-align: center ;   
+}
+
+/*
+* Home Page
+*/
+.home {
+  min-height: 1000px;
+  text-align: center;
+  background-image: url("/public/img/HomeBackground.jpg");
+  background-size: cover;
+}
+.homeTitle {
+  font-size: 80px;
+  margin: 0;
+  font-family: "Merriweather", serif;
+}
+
+.homeContent {
+  color: #fff;
+  padding-top: 25px;
+}
+
+.homeContent a {
+  display: inline-block;
+  color: #fff;
+  border: 3px solid #fff;
+  border-radius: 6px;
+  padding: 15px 30px;
+  margin: 0px 10px;
+  text-decoration: none;
+  font-size: 28px;
+  transition: transform 1s;
+}
+
+/*
+* Login Page
+*/
+.LoginFunction{
+  text-align: center;
+}
+.login{  
+  font-size: 21px;
+  margin: 4px 2px;
+  background-color: #181715;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+.logout{
+  font-size: 21px;
+  margin: 4px 2px;
+  background-color: #181715;
+  color: white;
+  padding: 10px 15px;
+  text-align: center; 
+}
+
+/*
+* Register Page
+*/
+.RegisterFunction{
+  text-align: center;
+}
+.register{  
+  font-size: 21px;
+  margin: 4px 2px;
+  background-color: #181715;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+/*
+* Volcano List Page
+*/
+.search{  
+  font-size: 14px;
+  margin: 4px 2px;
+  background-color: #181715;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+}
